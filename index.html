@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -7,64 +7,90 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1 class="title">Symbionet</h1>
-    <p>Rete intelligente per organizzare il lavoro umano e artificiale al servizio del bene collettivo.<br>
-    Intelligent network coordinating human and artificial work for collective wellbeing.</p>
-  </header>
 
-  <main>
-    <section>
-      <h2>🧩 Cosa facciamo / What we do</h2>
-      <p>
-        Symbionet raccoglie richieste operative da cittadini, organizzazioni e istituzioni, di qualsiasi scala.<br>
-        Progetta risposte su misura, attivando risorse umane e strumenti intelligenti in modo adattivo e collaborativo.<br><br>
-        Symbionet collects operational requests from citizens, organizations and institutions of any scale.<br>
-        It designs tailored responses, activating human resources and intelligent systems in an adaptive, collaborative way.
-      </p>
+
+    <header>
+        <div class="topbar">
+          <h1 class="title">Symbionet</h1>
+          <div class="language-toggle">
+            <button onclick="setLanguage('en')">🇬🇧</button>
+            <button onclick="setLanguage('it')">🇮🇹</button>
+          </div>
+        </div>
+    </header>
       
-    </section>
+  
 
-    <section>
-      <h2>⚙️ Come funziona / How it works</h2>
-      <ol>
-        <li>Accogliamo richieste da qualsiasi soggetto</li>
-        <li>Analizziamo e strutturiamo il problema, coinvolgendo competenze umane e sistemi intelligenti</li>
-        <li>Attiviamo una struttura adattiva composta da persone e strumenti su misura</li>
-        <li>Portiamo a termine la missione, valutiamo l’impatto e condividiamo la conoscenza</li>
-      </ol>
-      
-      <ol>
-        <li>We accept requests from any entity</li>
-        <li>We analyze and structure the problem, involving human expertise and intelligent systems</li>
-        <li>We activate an adaptive unit composed of people and tools selected ad hoc</li>
-        <li>We deliver the solution, assess the impact and share the knowledge</li>
-      </ol>
-      
-    </section>
+<main>
+  <section>
+    <h2 class="en">🧩 What we do</h2>
+    <h2 class="it">🧩 Cosa facciamo</h2>
+    <p class="en">Symbionet is an intelligent network coordinating human and artificial work for collective wellbeing.<br>
+    <p class="en">It collects real-world requests from citizens, companies and institutions and coordinates human resources and intelligent systems to deliver impactful outcomes.</p>
+    <p class="it">Symbionet è una rete intelligente per organizzare il lavoro umano e artificiale al servizio del bene collettivo.<br>
+    <p class="it"> Raccoglie richieste operative da cittadini, aziende e istituzioni.risorse umane e sistemi intelligenti per portare a termine progetti concreti.</p>
+  </section>
 
-    <section>
-      <h2>🎯 A chi ci rivolgiamo / Who we support</h2>
-      <ul>
-        <li>Enti pubblici, comuni e amministrazioni / Public institutions and administrations</li>
-        <li>Organizzazioni, imprese e realtà civiche / Organizations, businesses and civic groups</li>
-        <li>Cittadini, comunità locali e persone che vogliono agire / Citizens, communities and individuals ready to act</li>
-      </ul>      
-    </section>
+  <section>
+    <h2 class="en">⚙️ How it works</h2>
+    <h2 class="it">⚙️ Come funziona</h2>
+    <ol class="it">
+      <li>Accogliamo richieste da qualsiasi soggetto</li>
+      <li>Analizziamo e strutturiamo il problema, coinvolgendo competenze umane e sistemi intelligenti</li>
+      <li>Attiviamo una struttura adattiva composta da persone e strumenti su misura</li>
+      <li>Portiamo a termine la missione, valutiamo l’impatto e condividiamo la conoscenza</li>
+    </ol>
+    <ol class="en">
+      <li>We accept requests from any entity</li>
+      <li>We analyze and structure the problem, involving human expertise and intelligent systems</li>
+      <li>We activate an adaptive unit composed of people and tools selected ad hoc</li>
+      <li>We deliver the solution, assess the impact and share the knowledge</li>
+    </ol>
+  </section>
 
-    <section class="cta">
-      <a href="form.html">📨 Invia una richiesta / Submit a request</a>
-      <a href="join.html">🤝 Collabora con noi / Join the network</a>
-      <a href="manifesto.html">📜 Leggi il manifesto / Read the manifesto</a>
-      <a href="how.html">🧭 Come lavoriamo / How we work</a>
-      <a href="ai.html">🤖 Tecnologia e AI / AI & Tech</a>
-      <a href="vision.html">🌍 Visione futura / Vision</a>
-      <a href="faq.html">❓ Domande frequenti / FAQ</a>      
-    </section>
-  </main>
+  <section>
+    <h2 class="en">🎯 Who we support</h2>
+    <h2 class="it">🎯 A chi ci rivolgiamo</h2>
+    <ul>
+      <li class="it">Enti pubblici, comuni e amministrazioni / <span class="en">Public institutions and administrations</span></li>
+      <li class="it">Organizzazioni, imprese e realtà civiche / <span class="en">Organizations, businesses and civic groups</span></li>
+      <li class="it">Cittadini, comunità locali e persone che vogliono agire / <span class="en">Citizens, communities and individuals ready to act</span></li>
+    </ul>
+  </section>
 
-  <footer>
-    <p>© 2025 Symbionet. Contact us: symbionet.org@gmail.com</p>
-  </footer>
+  <div class="cta-grid">
+    <a href="form.html" class="it">📩 Invia una richiesta</a>
+    <a href="form.html" class="en">📩 Submit a request</a>
+    <a href="join.html" class="it">🤝 Collabora con noi</a>
+    <a href="join.html" class="en">🤝 Join the network</a>
+    <a href="manifesto.html" class="it">🧶 Leggi il manifesto</a>
+    <a href="manifesto.html" class="en">🧶 Read the manifesto</a>
+    <a href="how.html" class="it">🧭 Come lavoriamo</a>
+    <a href="how.html" class="en">🧭 How we work</a>
+    <a href="ai.html" class="it">🤖 Tecnologia e AI</a>
+    <a href="ai.html" class="en">🤖 AI & Tech</a>
+    <a href="vision.html" class="it">🌍 Visione futura</a>
+    <a href="vision.html" class="en">🌍 Vision</a>
+    <a href="faq.html" class="it">❓ Domande frequenti</a>
+    <a href="faq.html" class="en">❓ FAQ</a>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 Symbionet. Contact us: <a href="mailto:symbionet.org@gmail.com" class="mail">symbionet.org@gmail.com</a></p>
+</footer>
+
+<script>
+  function setLanguage(lang) {
+    localStorage.setItem('symbionetLang', lang);
+    document.querySelectorAll('.en').forEach(el => el.style.display = lang === 'en' ? 'block' : 'none');
+    document.querySelectorAll('.it').forEach(el => el.style.display = lang === 'it' ? 'block' : 'none');
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    const lang = localStorage.getItem('symbionetLang') || 'en';
+    setLanguage(lang);
+  });
+</script>
+
 </body>
 </html>

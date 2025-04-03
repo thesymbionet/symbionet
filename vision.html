@@ -1,46 +1,52 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Visione – Symbionet</title>
+  <title>Our Vision – Symbionet</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
-    <h1  class="title">🌍 Visione / Our Vision</h1>
-  </header>
+    <h1 class="title it">🌍 Symbionet – Visione</h1>
+    <h1 class="title en">🌍 Symbionet – Vision</h1>
+    <div class="language-toggle">
+        <button onclick="setLanguage('en')">🇬🇧</button>
+        <button onclick="setLanguage('it')">🇮🇹</button>
+    </div> 
+   </header>
 
   <main>
-    <h2>IT 🇮🇹</h2>
-    <p>
-      Symbionet vuole diventare una nuova infrastruttura operativa, agile e accessibile, al servizio della società.  
-      Una rete sistemica che valorizza tempo, competenze e intelligenze (umane e artificiali) per affrontare problemi complessi, anche in assenza di strutture tradizionali.
-    </p>
-    <p>
-      Il nostro modello può evolvere in:
+    <div class="it">
+      <h2>🇮🇹 Visione</h2>
+      <p>
+        Symbionet vuole diventare una nuova infrastruttura operativa, agile e accessibile, al servizio della società.  
+        Una rete sistemica che valorizza tempo, competenze e intelligenze (umane e artificiali) per affrontare problemi complessi, anche in assenza di strutture tradizionali.
+      </p>
       <ul>
         <li>Un nuovo standard di coordinamento civico e produttivo</li>
         <li>Una piattaforma aperta replicabile</li>
         <li>Una risorsa strategica per territori, istituzioni e comunità</li>
       </ul>
-    </p>
+    </div>
 
-    <h2>EN 🇬🇧</h2>
-    <p>
-      Symbionet aims to become a new operational infrastructure for society—agile, scalable and accessible.  
-      A systemic network that harnesses time, skills and intelligence (human and artificial) to tackle complex problems, even without traditional hierarchies.
-    </p>
-    <p>
-      Our model can evolve into:
+    <div class="en">
+      <h2>🇬🇧 Our Vision</h2>
+      <p>
+        Symbionet aims to become a new operational infrastructure for society—agile, scalable and accessible.  
+        A systemic network that harnesses time, skills and intelligence (human and artificial) to tackle complex problems, even without traditional hierarchies.
+      </p>
       <ul>
         <li>A new civic and productive coordination standard</li>
         <li>A replicable open-source platform</li>
         <li>A strategic asset for communities, territories and institutions</li>
       </ul>
-    </p>
+    </div>
 
-    <a href="index.html">⬅️ Torna alla home / Back to home</a>
+    <a href="index.html" class="back-link">⬅️ Torna alla home / Back to home</a>
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>

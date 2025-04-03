@@ -1,37 +1,49 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Come lavoriamo – Symbionet</title>
+  <title>How we work – Symbionet</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
-    <h1  class="title">🧭 Come lavoriamo / How we work</h1>
-  </header>
+    <h1 class="title it">🧭 Symbionet – Come lavoriamo</h1>
+    <h1 class="title en">🧭 Symbionet – How we work</h1>
+    <div class="language-toggle">
+        <button onclick="setLanguage('en')">🇬🇧</button>
+        <button onclick="setLanguage('it')">🇮🇹</button>
+    </div>
+</header>
 
   <main>
-    <h2>IT 🇮🇹</h2>
-    <p>
-      Ogni richiesta genera un’<strong>unità adattiva</strong>, un piccolo team di persone e strumenti intelligenti scelti in base alla natura del problema.
-      Alcune unità durano poche ore, altre settimane o mesi. 
-      Ogni progetto è documentato e valutato per generare conoscenza e impatto.
-    </p>
-    <p>
-      I ruoli non sono fissi: facilitatori, operatori, esperti, mentori, AI assistant lavorano in sinergia secondo logiche flessibili, ma tracciabili e trasparenti.
-    </p>
+    <div class="it">
+      <h2>🇮🇹 Come lavoriamo</h2>
+      <p>
+        Ogni richiesta genera un’<strong>unità adattiva</strong>, un piccolo team di persone e strumenti intelligenti scelti in base alla natura del problema.
+        Alcune unità durano poche ore, altre settimane o mesi. 
+        Ogni progetto è documentato e valutato per generare conoscenza e impatto.
+      </p>
+      <p>
+        I ruoli non sono fissi: facilitatori, operatori, esperti, mentori, AI assistant lavorano in sinergia secondo logiche flessibili, ma tracciabili e trasparenti.
+      </p>
+    </div>
 
-    <h2>EN 🇬🇧</h2>
-    <p>
-      Each request activates an <strong>adaptive unit</strong>: a small team of people and intelligent tools selected based on the problem's nature.
-      Some units last hours, others weeks or months. Every project is documented and evaluated to generate knowledge and impact.
-    </p>
-    <p>
-      Roles are fluid: facilitators, operators, experts, mentors and AI assistants work together in synergy, with flexibility, traceability and transparency.
-    </p>
+    <div class="en">
+      <h2>🇬🇧 How we work</h2>
+      <p>
+        Each request activates an <strong>adaptive unit</strong>: a small team of people and intelligent tools selected based on the problem's nature.
+        Some units last hours, others weeks or months. Every project is documented and evaluated to generate knowledge and impact.
+      </p>
+      <p>
+        Roles are fluid: facilitators, operators, experts, mentors and AI assistants work together in synergy, with flexibility, traceability and transparency.
+      </p>
+    </div>
 
-    <a href="index.html">⬅️ Torna alla home / Back to home</a>
+    <a href="index.html" class="back-link">⬅️ Torna alla home / Back to home</a>
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>

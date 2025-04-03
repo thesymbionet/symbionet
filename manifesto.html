@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -7,25 +7,35 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1 class="title">📜 Manifesto / Manifesto</h1>
-  </header>
+
+    <header>
+        <h1 class="title">📜 Symbionet – Manifesto</h1>
+        <div class="language-toggle">
+            <button onclick="setLanguage('en')">🇬🇧</button>
+            <button onclick="setLanguage('it')">🇮🇹</button>
+        </div>
+    </header>
 
   <main>
-    <h2>IT 🇮🇹</h2>
-    <p>
-      Symbionet è una rete operativa intelligente, progettata per valorizzare il potenziale umano e artificiale nella risoluzione di problemi reali e concreti.
-      Ogni progetto è gestito nel rispetto della legalità, della sostenibilità e dell’impatto sociale. Symbionet agisce in modo flessibile, adattivo e orientato al risultato, combinando intelligenza collettiva e tecnologie evolute.
-    </p>
+    <div class="it">
+      <h2>🇮🇹 Manifesto</h2>
+      <p>
+        Symbionet è una rete operativa intelligente, progettata per valorizzare il potenziale umano e artificiale nella risoluzione di problemi reali e concreti.
+        Ogni progetto è gestito nel rispetto della legalità, della sostenibilità e dell’impatto sociale. Symbionet agisce in modo flessibile, adattivo e orientato al risultato, combinando intelligenza collettiva e tecnologie evolute.
+      </p>
+    </div>
 
-    <h2>EN 🇬🇧</h2>
-    <p>
-      Symbionet is an intelligent operational network designed to enhance human and artificial potential in solving real-world problems.
-      Every project is managed with respect for legality, sustainability and measurable impact. Symbionet operates flexibly and adaptively, combining collective intelligence and advanced technology for effective solutions.
-    </p>
+    <div class="en">
+      <h2>🇬🇧 Manifesto</h2>
+      <p>
+        Symbionet is an intelligent operational network designed to enhance human and artificial potential in solving real-world problems.
+        Every project is managed with respect for legality, sustainability and measurable impact. Symbionet operates flexibly and adaptively, combining collective intelligence and advanced technology for effective solutions.
+      </p>
+    </div>
 
-    <br>
-    <a href="index.html">⬅️ Torna alla home / Back to home</a>
+    <a href="index.html" class="back-link">⬅️ Torna alla home / Back to home</a>
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>

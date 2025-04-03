@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -7,36 +7,51 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
-    <h1  class="title">🤖 AI e tecnologie / AI & Technology</h1>
+    <div class="logo-title">
+      <h1 class="title">🤖 Symbionet – AI & Technology</h1>
+    </div>
+    <div class="language-toggle">
+        <button onclick="setLanguage('en')">🇬🇧</button>
+        <button onclick="setLanguage('it')">🇮🇹</button>
+      </div>
   </header>
 
   <main>
-    <h2>IT 🇮🇹</h2>
-    <p>
-      Symbionet integra sistemi intelligenti per supportare l’analisi, la distribuzione del lavoro, il supporto agli operatori e il monitoraggio dei progetti.  
-      L’IA non sostituisce l’intelligenza umana, ma la potenzia in ogni fase del ciclo operativo.
-    </p>
-    <ul>
-      <li>Matching tra richieste e competenze</li>
-      <li>Ottimizzazione della distribuzione del carico di lavoro</li>
-      <li>Assistenti conversazionali per supporto e onboarding</li>
-      <li>Automazione di task ripetitivi e analisi dell’impatto</li>
-    </ul>
+    <div class="it">
+      <h2>🇮🇹 Tecnologie intelligenti al servizio della rete</h2>
+      <p>
+        Symbionet integra sistemi intelligenti per supportare l’analisi, la distribuzione del lavoro,
+        il supporto agli operatori e il monitoraggio dei progetti.  
+        L’IA non sostituisce l’intelligenza umana, ma la potenzia in ogni fase del ciclo operativo.
+      </p>
+      <ul>
+        <li>Matching tra richieste e competenze</li>
+        <li>Ottimizzazione della distribuzione del carico di lavoro</li>
+        <li>Assistenti conversazionali per supporto e onboarding</li>
+        <li>Automazione di task ripetitivi e analisi dell’impatto</li>
+      </ul>
+    </div>
 
-    <h2>EN 🇬🇧</h2>
-    <p>
-      Symbionet integrates intelligent systems to support analysis, task distribution, operator assistance and project monitoring.  
-      AI doesn’t replace human intelligence—it amplifies it across the entire operational cycle.
-    </p>
-    <ul>
-      <li>Matching between requests and skills</li>
-      <li>Optimized workload distribution</li>
-      <li>Conversational assistants for support and onboarding</li>
-      <li>Automation of repetitive tasks and impact analysis</li>
-    </ul>
+    <div class="en">
+      <h2>🇬🇧 Intelligent systems supporting the network</h2>
+      <p>
+        Symbionet integrates intelligent systems to support analysis, task distribution,
+        operator assistance and project monitoring.  
+        AI doesn’t replace human intelligence—it amplifies it across the entire operational cycle.
+      </p>
+      <ul>
+        <li>Matching between requests and skills</li>
+        <li>Optimized workload distribution</li>
+        <li>Conversational assistants for support and onboarding</li>
+        <li>Automation of repetitive tasks and impact analysis</li>
+      </ul>
+    </div>
 
-    <a href="index.html">⬅️ Torna alla home / Back to home</a>
+    <a href="index.html" class="back-link">⬅️ Torna alla home / Back to home</a>
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>

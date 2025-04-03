@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -7,24 +7,41 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
-    <h1  class="title">❓ Domande frequenti / FAQ</h1>
+    <h1 class="title">❓ Symbionet – FAQ</h1>
+    <div class="language-toggle">
+        <button onclick="setLanguage('en')">🇬🇧</button>
+        <button onclick="setLanguage('it')">🇮🇹</button>
+    </div>
   </header>
 
   <main>
-    <h2>Chi può inviare una richiesta? / Who can submit a request?</h2>
-    <p>Chiunque: enti pubblici, aziende, privati, gruppi locali, associazioni.</p>
-    <p>Anyone: public institutions, companies, individuals, local groups, associations.</p>
+    <div class="it">
+      <h2>Chi può inviare una richiesta?</h2>
+      <p>Chiunque: enti pubblici, aziende, privati, gruppi locali, associazioni.</p>
 
-    <h2>Chi lavora nei progetti? / Who works on the projects?</h2>
-    <p>Collaboratori umani, volontari o retribuiti, e sistemi intelligenti assistivi.</p>
-    <p>Human collaborators—volunteers or compensated—supported by intelligent systems.</p>
+      <h2>Chi lavora nei progetti?</h2>
+      <p>Collaboratori umani, volontari o retribuiti, e sistemi intelligenti assistivi.</p>
 
-    <h2>Come vengono gestiti i compensi? / How are payments handled?</h2>
-    <p>Ogni progetto decide come usare le risorse: compensi diretti, rimborsi o fondi comuni.</p>
-    <p>Each project defines its fund allocation: direct compensation, reimbursements or shared investment.</p>
+      <h2>Come vengono gestiti i compensi?</h2>
+      <p>Ogni progetto decide come usare le risorse: compensi diretti, rimborsi o fondi comuni.</p>
+    </div>
 
-    <a href="index.html">⬅️ Torna alla home / Back to home</a>
+    <div class="en">
+      <h2>Who can submit a request?</h2>
+      <p>Anyone: public institutions, companies, individuals, local groups, associations.</p>
+
+      <h2>Who works on the projects?</h2>
+      <p>Human collaborators—volunteers or compensated—supported by intelligent systems.</p>
+
+      <h2>How are payments handled?</h2>
+      <p>Each project defines its fund allocation: direct compensation, reimbursements or shared investment.</p>
+    </div>
+
+    <a href="index.html" class="back-link">⬅️ Torna alla home / Back to home</a>
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>

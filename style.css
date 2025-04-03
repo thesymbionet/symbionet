@@ -1,47 +1,136 @@
-body {
-  font-family: system-ui, sans-serif;
-  line-height: 1.6;
+
+
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #222;
-  background-color: #f9f9f9;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 header, footer {
-  background-color: #0a0a23;
+  background-color: #000000;
   color: white;
-  padding: 1.5rem;
+  padding: 2rem;
   text-align: center;
 }
 
+header {
+  padding-bottom: 0.5rem;
+}
+  
 main {
-  padding: 2rem;
-  max-width: 800px;
+  margin-top: 1rem;
+}
+  
+main {
+  max-width: 900px;
   margin: auto;
+  padding: 2rem;
 }
 
-h1, h2 {
-  color: #0a0a23;
+h1, h2, h3 {
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
-.cta a {
-  display: inline-block;
-  margin: 1rem 1rem 0 0;
-  padding: 0.75rem 1.25rem;
-  background-color: #0a0a23;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
+ol, ul {
+    margin-left: 2rem;
+    padding-left: 1rem;
 }
-
+  
 .cta a:hover {
   background-color: #333;
 }
 
+.cta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+.cta-grid a {
+display: block;
+background-color: #0a0a23;
+color: white;
+text-decoration: none;
+padding: 0.9rem 1.2rem;
+border-radius: 6px;
+font-weight: 500;
+transition: background-color 0.2s ease;
+text-align: center;
+}
+
+.cta-grid a:hover {
+background-color: #2c2c47;
+}
+
+  
+footer {
+  font-size: 0.9rem;
+}
+
 .title {
+    color:white;
+}
+
+.mail {
     color: white;
 }
+
+.back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #0a0a23;
+    font-weight: 600;
+    background-color: #eaeaea;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .back-link:hover {
+    background-color: #d5d5d5;
+  }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1rem 2rem;
+    background-color: #0a0a23;
+    color: white;
+  }
+  
+  .language-toggle button {
+    font-size: 1.1rem;
+    width: 42px;
+    height: 36px;
+    padding: 0;
+    border: none;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .language-toggle button:hover {
+    background-color: #f0f0f0;
+  }
+  
